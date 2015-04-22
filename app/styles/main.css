@@ -1,3 +1,26 @@
 body {
-  padding: 20px;
+    width: 300px;
+    height: 485px;
+    boder: 1px solid #D2CBC5;
+    margin: 0px;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.say h1 {
+    font-size: 32px;
+}
+
+.say p {
+    font-size: 16px;
+    color: #666;
+    -webkit-margin-before:0.24em;
+    -webkit-margin-after:0.24em;
+}
+ .say p.firstP{
+    font-size: 18px;
+    -webkit-margin-before:-0.8em;
+    -webkit-margin-after:2em;
+ }
