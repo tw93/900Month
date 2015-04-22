@@ -11,9 +11,9 @@
     <!-- endbuild -->
   </head>
   <body data-ng-app="myApp"  data-ng-controller="myController">
-    <div class=“welcome” data-ng-if=come></div>{{st}}
-    <div class=“drawset” data-ng-if=set></div>
-    <div class=“drawshow” data-ng-if=show></div>
+    <div class=“welcome” data-ng-if="st==0"></div>
+    <div class=“drawset” data-ng-if="st==1"></div>
+    <div class=“drawshow” data-ng-if="st==2"></div>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/angular/angular.min.js"></script>

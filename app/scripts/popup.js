@@ -18,12 +18,9 @@ angular.module('myApp',[])
         templateUrl:'views/drawshow.html'
     }
 }).controller('myController',['$scope',function($scope){
-    $scope.come=1;
-    $scope.set=0;
-    $scope.show=0;
+    $scope.st=0;
     $scope.toDrawSet=function(){
-        $scope.come=0;
-        $scope.set=1;
+        $scope.st=1;
     }
     
 }])
