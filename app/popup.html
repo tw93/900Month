@@ -10,16 +10,21 @@
     <link href="styles/main.css" rel="stylesheet">
     <!-- endbuild -->
   </head>
-  <body>
-    <header>
-        <img src="images/topPic.png" alt="900 Months">
-    </header>
-    <div class="say text-center">
-       <h1 >Fact</h1>
-       <p class="firstP">Life is only 900 months.</p>
-       <p>Draw a 30×30 table on paper.</p>
-       <p>Check a box every month.</p>
-       <p>That's your whole life.</p>
+  <body data-ng-app="myApp">
+    <div class=“welcome”>
+        <header>
+    <img src="images/topPic.png" alt="900 Months">
+</header>
+<div class="say text-center">
+    <h1>Fact</h1>
+    <p class="firstP">Life is only 900 months.</p>
+    <p>Draw a 30×30 table on paper.</p>
+    <p>Check a box every month.</p>
+    <p>That's your whole life.</p>
+</div>
+<footer class="text-center" >
+    <button class="draw" ng-click=“draw=1” >Draw my life</button>、
+</footer>
 
     </div>
     <!-- build:js scripts/vendor.js -->

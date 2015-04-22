@@ -1,7 +1,6 @@
 body {
     width: 300px;
     height: 485px;
-    boder: 1px solid #D2CBC5;
     margin: 0px;
 }
 
@@ -24,3 +23,19 @@ body {
     -webkit-margin-before:-0.8em;
     -webkit-margin-after:2em;
  }
+
+button{
+    padding: 0.6em;
+    border: 0px;
+    color: #fff;
+    background: #DC4F33;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+.floatRight{
+    float: right;
+}
+button.draw{
+    margin-top: 20px;
+}
