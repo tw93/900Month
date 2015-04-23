@@ -82,7 +82,9 @@ button.draw {
     background-color: #DC4F33;
     background-image: none;
 }
-
+[date-picker] .active:hover{
+    color: #000;
+}
 .drawbody {
     height: 495px;
     text-align: center;
@@ -101,4 +103,13 @@ button.draw {
     color: #333;
     background: #fff;
     cursor: default;
+}
+
+.myShow{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.myShow span{
+    font-size: 26px;
+    color: #000;
 }

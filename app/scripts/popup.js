@@ -15,6 +15,7 @@ angular.module('myApp',['datePicker'])
 }).directive('drawshow',function(){
     return {
         restrict:'CA',
+        scope:true,
         templateUrl:'views/drawshow.html'
     }
 }).controller('myController',['$scope',function($scope){
@@ -27,6 +28,14 @@ angular.module('myApp',['datePicker'])
     $scope.returnWelcome=function(){
         $scope.st=0;
         $scope.isDrawbody=false;
+    };
+    $scope.toDrawShow=function(){
+        $scope.st=2;
+        $scope.isDrawbody=true;
+        $scope.isDrawbody=true;
+        $scope.monthSts=Array.apply(null,Array(900)).map(function(item,i){
+            return 0;
+        })
     }
     
 }])
