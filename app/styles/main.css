@@ -45,7 +45,7 @@ button.draw {
 }
 
 .myDatepicker {
-    margin: 12px 34px;
+    margin: 15px 34px 5px;
     height: 236px;
 }
 
@@ -92,7 +92,7 @@ button.draw {
     height: 50px;
     width: 320px;
     position: absolute;
-    bottom: 10px;
+    bottom: 18px;
     left: 0px;
 }
 
