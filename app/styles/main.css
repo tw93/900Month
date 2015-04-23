@@ -24,7 +24,7 @@ body {
     -webkit-margin-after:2em;
  }
 
-button{
+.button{
     padding: 0.6em;
     border: 0px;
     color: #fff;
@@ -38,4 +38,11 @@ button{
 }
 button.draw{
     margin-top: 20px;
+}
+.myDatepicker{
+    margin-left: 34px; 
+}
+.drawset header h1{
+    font-size: 32px;
+    font-weight: normal;
 }

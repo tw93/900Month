@@ -1,7 +1,7 @@
 'use strict';
 //console.log(window.location());
 //console.log('\'Allo \'Allo! Popup');
-angular.module('myApp',['angular-datepicker'])
+angular.module('myApp',['datePicker'])
 .directive('welcome',function(){
     return {
         restrict:'CA',
