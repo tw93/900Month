@@ -20,7 +20,6 @@ body {
 }
  .say p.firstP{
     font-size: 18px;
-    -webkit-margin-before:-0.8em;
     -webkit-margin-after:2em;
  }
 
@@ -37,24 +36,28 @@ body {
     float: right;
 }
 button.draw{
-    margin-top: 20px;
+    margin-top: 2em;
 }
 .myDatepicker{
-    margin:40px 34px 10px; 
+    margin:25px 34px 10px; 
 }
 .myH1{
   font-size: 32px;
     font-weight: normal;  
-    margin-top: 40px;
+    -webkit-margin-before:30px;
 }
 .myP{
     font-size: 16px;
     color: #666;
     -webkit-margin-before:0.24em;
     -webkit-margin-after:0.24em;
-    text-align: center;
     padding: 0 20px;
 }
 [date-picker] .now:hover, [date-picker] .now:active, [date-picker] .now.active, [date-picker] .now.disabled, [date-picker] .now[disabled],[date-picker] .active:hover, [date-picker] .now:hover, [date-picker] .active:active, [date-picker] .now:active, [date-picker] .active.active, [date-picker] .now.active, [date-picker] .active.disabled, [date-picker] .now.disabled, [date-picker] .active[disabled], [date-picker] .now[disabled]{
     background-color: #DC4F33;
 }
+.drawbody{
+    height: 495px;
+    text-align: center;
+}
+.footer{height:50px;width:320px;position:absolute;bottom:10px;left:0px;}

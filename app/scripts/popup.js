@@ -19,8 +19,10 @@ angular.module('myApp',['datePicker'])
     }
 }).controller('myController',['$scope',function($scope){
     $scope.st=0;
+    $scope.isDrawbody=false;
     $scope.toDrawSet=function(){
         $scope.st=1;
+        $scope.isDrawbody=true;
     }
     
 }])
