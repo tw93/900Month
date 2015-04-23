@@ -10,54 +10,93 @@ body {
 
 .say h1 {
     font-size: 32px;
+    -webkit-margin-before: 1em;
 }
 
-.say p{
+.say p {
     font-size: 16px;
     color: #666;
-    -webkit-margin-before:0.24em;
-    -webkit-margin-after:0.24em;
+    -webkit-margin-before: 0.24em;
+    -webkit-margin-after: 0.24em;
 }
- .say p.firstP{
-    font-size: 18px;
-    -webkit-margin-after:2em;
- }
 
-.button{
-    padding: 0.6em;
-    border: 0px;
+.say p.firstP {
+    font-size: 18px;
+    -webkit-margin-after: 2em;
+}
+
+.button {
+    width: 132px;
+    height: 32px;
+    border: 1px solid #DC4F33;
     color: #fff;
     background: #DC4F33;
     cursor: pointer;
     border-radius: 3px;
     outline: none;
 }
-.floatRight{
+
+.floatRight {
     float: right;
 }
-button.draw{
+
+button.draw {
     margin-top: 2em;
 }
-.myDatepicker{
-    margin:25px 34px 10px; 
+
+.myDatepicker {
+    margin: 12px 34px;
+    height: 236px;
 }
-.myH1{
-  font-size: 32px;
-    font-weight: normal;  
-    -webkit-margin-before:30px;
+
+.myH1 {
+    font-size: 32px;
+    font-weight: normal;
+    -webkit-margin-before: 30px;
 }
-.myP{
+
+.myP {
     font-size: 16px;
     color: #666;
-    -webkit-margin-before:0.24em;
-    -webkit-margin-after:0.24em;
+    -webkit-margin-before: 0.24em;
+    -webkit-margin-after: 0.24em;
     padding: 0 20px;
 }
-[date-picker] .now:hover, [date-picker] .now:active, [date-picker] .now.active, [date-picker] .now.disabled, [date-picker] .now[disabled],[date-picker] .active:hover, [date-picker] .now:hover, [date-picker] .active:active, [date-picker] .now:active, [date-picker] .active.active, [date-picker] .now.active, [date-picker] .active.disabled, [date-picker] .now.disabled, [date-picker] .active[disabled], [date-picker] .now[disabled]{
+
+[date-picker] .now:hover,
+[date-picker] .now:active,
+[date-picker] .now.active,
+[date-picker] .now.disabled,
+[date-picker] .now[disabled],
+[date-picker] .active:hover,
+[date-picker] .now:hover,
+[date-picker] .active:active,
+[date-picker] .now:active,
+[date-picker] .active.active,
+[date-picker] .now.active,
+[date-picker] .active.disabled,
+[date-picker] .now.disabled,
+[date-picker] .active[disabled],
+[date-picker] .now[disabled] {
     background-color: #DC4F33;
+    background-image: none;
 }
-.drawbody{
+
+.drawbody {
     height: 495px;
     text-align: center;
 }
-.footer{height:50px;width:320px;position:absolute;bottom:10px;left:0px;}
+
+.footer {
+    height: 50px;
+    width: 320px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+
+.nodraw {
+    border: 1px solid #DC4F33;
+    color: #333;
+    background: #fff;
+}

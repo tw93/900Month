@@ -7,5 +7,5 @@
 <p data-ng-if=start class="myP">Your Birth Date：{{start | date:'MMM. dd yyyy'}}</p>
 </div>
 <footer class="footer">
-     <button class="set button" data-ng-click='toDrawSet()' data-ng-disable="!start">Draw my life</button>
+     <button class="set button" data-ng-click='toDrawSet()' data-ng-class="{nodraw:!start}">Draw my life</button>
 </footer>
