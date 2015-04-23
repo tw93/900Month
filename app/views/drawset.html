@@ -1,4 +1,8 @@
 <header class="text-center">
-    <h1>900 months</h1>
+    <h1 class="myH1">900 Months</h1>
 </header>
-<div date-picker="start" view="year"  min-view="date" class="myDatepicker"></div>
+<div class="content">
+    <p class="myP">Choose your birthday in chronological order from the calendar</p>
+<div date-picker="start" view="year"  min-view="date" class="myDatepicker" ng-model="start"></div>
+<p data-ng-if=start class="myP">Your Birth Date：{{start | date:'MMM. dd yyyy'}}</p>
+</div>
