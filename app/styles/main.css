@@ -22,7 +22,7 @@ body {
 
 .say p.firstP {
     font-size: 18px;
-    -webkit-margin-after: 2em;
+    -webkit-margin-after: 1.8em;
 }
 
 .button {
@@ -53,6 +53,7 @@ button.draw {
     font-size: 32px;
     font-weight: normal;
     -webkit-margin-before: 30px;
+    cursor: pointer;
 }
 
 .myP {
@@ -99,4 +100,5 @@ button.draw {
     border: 1px solid #DC4F33;
     color: #333;
     background: #fff;
+    cursor: default;
 }

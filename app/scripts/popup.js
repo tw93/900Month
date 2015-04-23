@@ -23,6 +23,10 @@ angular.module('myApp',['datePicker'])
     $scope.toDrawSet=function(){
         $scope.st=1;
         $scope.isDrawbody=true;
+    };
+    $scope.returnWelcome=function(){
+        $scope.st=0;
+        $scope.isDrawbody=false;
     }
     
 }])
