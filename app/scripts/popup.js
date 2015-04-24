@@ -21,6 +21,7 @@ angular.module('myApp', ['datePicker'])
         }
     }).controller('myController', ['$scope', function($scope) {
         $scope.st = 0;
+        $scope.must = false;
         $scope.isDrawbody = false;
         $scope.now = new Date();
         $scope.toDrawSet = function() {
@@ -33,21 +34,28 @@ angular.module('myApp', ['datePicker'])
         };
         $scope.toDrawShow = function(time) {
             console.log(time);
+            if(time==undefined){
+                $scope.must=true;
+                return false;
+            }else{
+                $scope.must=false;
+            }
             $scope.st = 2;
             $scope.isDrawbody = true;
             $scope.time = time;
-            var birYear=$scope.time.getFullYear(),
-                birMonth=$scope.time.getMonth(),
-                nowYear=$scope.now.getFullYear(),
-                nowMonth=$scope.now.getMonth();
-             $scope.haveMonth=12-birMonth+(nowYear-birYear)*12+nowMonth+1;
-            $scope.day=Math.floor(($scope.now-$scope.time)/86400000);            $scope.monthSts = Array.apply(null, Array(900)).map(function(item, i) {
+            var birYear = $scope.time.getFullYear(),
+                birMonth = $scope.time.getMonth(),
+                nowYear = $scope.now.getFullYear(),
+                nowMonth = $scope.now.getMonth();
+            $scope.haveMonth = 12 - birMonth + (nowYear - birYear) * 12 + nowMonth + 1;
+            $scope.day = Math.floor(($scope.now - $scope.time) / 86400000);
+            $scope.monthSts = Array.apply(null, Array(900)).map(function(item, i) {
                 item = (i > $scope.haveMonth) ? 0 : 1;
-                if(i<$scope.haveMonth){
+                if (i < $scope.haveMonth) {
                     return 0;
-                }else if(i==$scope.haveMonth){
+                } else if (i === $scope.haveMonth) {
                     return 1;
-                }else{
+                } else {
                     return 2;
                 }
             })

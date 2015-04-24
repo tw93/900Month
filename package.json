@@ -1,6 +1,6 @@
 {
   "name": "900month",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -27,5 +27,9 @@
   },
   "engines": {
     "node": ">=0.8.0"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/tw93/900month.git"
+}
 }
