@@ -1,6 +1,6 @@
 body {
-    width: 300px;
-    height: 525px;
+    width: 340px;
+    height: 565px;
     margin: 0px;
 }
 
@@ -45,14 +45,14 @@ button.draw {
 }
 
 .myDatepicker {
-    margin: 15px 34px 5px;
+    margin: 35px 54px 17px;
     height: 236px;
 }
 
 .myH1 {
     font-size: 32px;
     font-weight: normal;
-    -webkit-margin-before: 30px;
+    -webkit-margin-before: 40px;
     cursor: pointer;
 }
 
@@ -86,15 +86,15 @@ button.draw {
     color: #000;
 }
 .drawbody {
-    height: 495px;
+    height: 525px;
     text-align: center;
 }
 
 .footer {
     height: 50px;
-    width: 320px;
+    width: 340px;
     position: absolute;
-    bottom: 18px;
+    bottom: 25px;
     left: 0px;
 }
 
@@ -112,4 +112,25 @@ button.draw {
 .myShow span{
     font-size: 26px;
     color: #000;
+}
+ul.table{
+    width: 330px;
+    height: 330px;
+    border-bottom:1px #999 solid; 
+    border-right:1px #999 solid; 
+    -webkit-padding-start:0px;
+    -webkit-margin-start:5px;
+}
+ul.table li{
+    list-style-type:none;
+    width: 10px;
+    height: 10px;
+    border-left:1px #999 solid;
+    border-top:1px #999 solid;
+    float: left;
+    font-size: 12px;
+}
+
+ul.table li.dayAgo{
+    background: #666;
 }

@@ -1,7 +1,7 @@
 <div class="content text-center">
-    <p class="myShow">Life is only <span>900</span> Months.</p>{{time}}
+    <p class="myShow">Life is only <span>900</span> Months.</p>{{time}} <br> {{now}}
         <ul class="table">
-            <li ng-repeat="monthSt in monthSts" ng-class="todayAgo:monthSt">1</li>
+            <li data-ng-repeat="m in monthSts track by $index" data-ng-class="{dayAgo:m}"></li>
         </ul>
 </div>
 <footer class="footer">
