@@ -107,30 +107,38 @@ button.draw {
 
 .myShow{
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
-.myShow span{
+.myHave{
+    font-size: 20px;
+}
+.myShow span,.myHave span{
     font-size: 26px;
     color: #000;
 }
 ul.table{
     width: 330px;
     height: 330px;
-    border-bottom:1px #999 solid; 
-    border-right:1px #999 solid; 
+    border-bottom:1px #DDD solid; 
+    border-right:1px #DDD solid; 
     -webkit-padding-start:0px;
     -webkit-margin-start:5px;
+    -webkit-margin-before: 2.8em;
 }
 ul.table li{
     list-style-type:none;
     width: 10px;
     height: 10px;
-    border-left:1px #999 solid;
-    border-top:1px #999 solid;
+    border-left:1px #DDD solid;
+    border-top:1px #DDD solid;
     float: left;
     font-size: 12px;
 }
 
 ul.table li.dayAgo{
-    background: #666;
+    background: #AAA;
+}
+ul.table li.dayNow{
+    background: #DC4F33;
+    background:-webkit-linear-gradient(360deg, #F00, #DC4F33);
 }

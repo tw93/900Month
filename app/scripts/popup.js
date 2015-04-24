@@ -36,9 +36,20 @@ angular.module('myApp', ['datePicker'])
             $scope.st = 2;
             $scope.isDrawbody = true;
             $scope.time = time;
-            $scope.monthSts = Array.apply(null, Array(900)).map(function(item, i) {
-                item = (i > 300) ? 0 : 1;
-                return item;
+            var birYear=$scope.time.getFullYear(),
+                birMonth=$scope.time.getMonth(),
+                nowYear=$scope.now.getFullYear(),
+                nowMonth=$scope.now.getMonth();
+             $scope.haveMonth=12-birMonth+(nowYear-birYear)*12+nowMonth+1;
+            $scope.day=Math.floor(($scope.now-$scope.time)/86400000);            $scope.monthSts = Array.apply(null, Array(900)).map(function(item, i) {
+                item = (i > $scope.haveMonth) ? 0 : 1;
+                if(i<$scope.haveMonth){
+                    return 0;
+                }else if(i==$scope.haveMonth){
+                    return 1;
+                }else{
+                    return 2;
+                }
             })
         }
     }])
