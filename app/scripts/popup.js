@@ -34,10 +34,8 @@ angular.module('myApp', ['datePicker'])
         };
         $scope.toDrawShow = function(time) {
             $scope.must=true;
-            if((time==undefined)||(time>=now)){
+            if((time==undefined)||(time>=$scope.now)){
                 return false;
-            }else{
-                $scope.info="Your Birth Date：";
             }
             $scope.st = 2;
             $scope.isDrawbody = true;
