@@ -63,6 +63,9 @@ button.draw {
     -webkit-margin-after: 0.24em;
     padding: 0 20px;
 }
+.red{
+    color: #DC4F33;
+}
 
 [date-picker] .now:hover,
 [date-picker] .now:active,
