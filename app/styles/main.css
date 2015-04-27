@@ -53,7 +53,6 @@ button.draw {
     font-size: 32px;
     font-weight: normal;
     -webkit-margin-before: 40px;
-    cursor: pointer;
 }
 
 .myP {
