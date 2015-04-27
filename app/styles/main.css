@@ -155,10 +155,28 @@ ul.table li.dayNow {
     background: -webkit-linear-gradient(360deg, #F00, #DC4F33);
 }
 
-.removeBtn {
-    border: 1px solid #DC4F33;
+.removeBtn,
+.returnBtn,
+.tw93Btn {
+    border: 1px solid #DDD;
     background: #fff;
+    color: #AAA;
     float: right;
-    margin: 14px 15px 0 -54px;
+    margin: -16px 5px 0 0;
     cursor: pointer;
+    width: 50px;
+    height: 20px;
+    outline: none;
+}
+
+.returnBtn {
+    margin: 50px 49px;
+    position: absolute;
+}
+
+.tw93Btn {
+    position: absolute;
+    margin: 48px 47px;
+    text-decoration: none;
+    line-height: 20px;
 }

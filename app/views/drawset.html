@@ -1,14 +1,14 @@
 <header class="text-center">
-    <h1 class="myH1" data-ng-click="returnWelcome()">900 Months</h1>
+    <h1 class="myH1">900 Months</h1>
 </header>
 <div class="content">
     <p class="myP">Choose your birthday in chronological order from the calendar.</p>
-<div date-picker="start" view="year"  min-view="date" class="myDatepicker" data-ng-model="start" ></div>
-<p data-ng-if="(!start&&must)"  class="myP" data-ng-class="{red:must}">You must choose your birthday.</p>
-<p data-ng-if="(start>=now)"  class="myP" data-ng-class="{red:must}">The date can not advance.</p>
-
-<p data-ng-if="(start<now)" class="myP">Your Birth Date：{{start | date:'MMM. dd yyyy'}}</p>
+    <div date-picker="start" view="year" min-view="date" class="myDatepicker" data-ng-model="start"></div>
+    <p data-ng-if="(!start&&must)" class="myP" data-ng-class="{red:must}">You must choose your birthday.</p>
+    <p data-ng-if="(start>=now)" class="myP" data-ng-class="{red:must}">The date can not advance.</p>
+    <p data-ng-if="(start<now)" class="myP">Your Birth Date：{{start | date:'MMM. dd yyyy'}}</p>
 </div>
 <footer class="footer">
-     <button class="set button" data-ng-click="toDrawShow(start)" data-ng-class="{nodraw:(!start||start>now)}">Draw my life</button>
+    <button class="set button" data-ng-click="toDrawShow(start)" data-ng-class="{nodraw:(!start||start>now)}">Draw my life</button>
+    <button class="returnBtn" data-ng-click="returnWelcome()">Return</button>
 </footer>
