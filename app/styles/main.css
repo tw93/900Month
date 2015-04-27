@@ -36,10 +36,6 @@ body {
     outline: none;
 }
 
-.floatRight {
-    float: right;
-}
-
 button.draw {
     margin-top: 2em;
 }
@@ -156,7 +152,7 @@ ul.table li.dayNow {
 .removeBtn,
 .returnBtn,
 .tw93Btn {
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     background: #fff;
     color: #AAA;
     float: right;

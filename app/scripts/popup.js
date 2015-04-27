@@ -57,13 +57,13 @@ angular.module('myApp', ['datePicker'])
                 $scope.isDrawbody = true;
             };
             $scope.toDrawShow = function(time) {
+                $scope.st = 2;
+                $scope.isDrawbody = true;
                 $scope.must = true;
+                $scope.time = time;
                 if ((time == undefined) || (time >= $scope.now)) {
                     return false;
                 }
-                $scope.st = 2;
-                $scope.isDrawbody = true;
-                $scope.time = time;
                 var dataObj = {};
                 dataObj['900MonthBirthday'] = $scope.time.toString();
                 chrome.storage.local.set(dataObj, function() {
