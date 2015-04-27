@@ -151,7 +151,6 @@ ul.table li.dayAgo {
 
 ul.table li.dayNow {
     background: #DC4F33;
-    background: -webkit-linear-gradient(360deg, #F00, #DC4F33);
 }
 
 .removeBtn,
