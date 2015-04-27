@@ -47,7 +47,6 @@ angular.module('myApp', ['datePicker'])
                
             } else {
                 $scope.st = 0;
-                $scope.must = false;
                 $scope.isDrawbody = false;
             }
              $scope.remove = function() {
@@ -59,6 +58,7 @@ angular.module('myApp', ['datePicker'])
                 }
             $scope.toDrawSet = function() {
                     $scope.st = 1;
+                    $scope.must = false;
                     $scope.isDrawbody = true;
                 };
                 $scope.returnWelcome = function() {
