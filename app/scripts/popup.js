@@ -18,8 +18,6 @@ angular.module('myApp', ['datePicker'])
             templateUrl: 'views/drawshow.html'
         }
     }).controller('myController', ['$scope', function($scope) {
-        $scope.st = 0;
-        $scope.isDrawbody = false;
         $scope.now = new Date();
         chrome.storage.local.get('900MonthBirthday', function(result) {
             var saveTime = result['900MonthBirthday'];
@@ -43,6 +41,9 @@ angular.module('myApp', ['datePicker'])
                         return 2;
                     }
                 });
+            } else {
+                $scope.st = 0;
+                $scope.isDrawbody = false;
             }
             $scope.returnWelcome = function() {
                 $scope.st = 0;
