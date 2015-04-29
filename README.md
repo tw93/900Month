@@ -12,9 +12,18 @@ Draw a 30×30 table on paper.Check a box every month.  That's your whole life.
 
 ##Enjoy the extension
  
- ![Load the extension](http://7xir1l.com1.z0.glb.clouddn.com/as1.png)
+### The first set：
+ ![Load the extension](http://7xir1l.com1.z0.glb.clouddn.com/chrome.png)
 
+### The second open：
+ ![Load the extension](http://7xir1l.com1.z0.glb.clouddn.com/all.png)
 
-
+##Next
+ 
+ - add the angular animate.
+ - add the Month plan todo.
+ - add the google analytics.
+ - do a Hybrid App for android.
+ - ...
 
 
