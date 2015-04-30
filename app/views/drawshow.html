@@ -1,10 +1,12 @@
 <div class="content text-center">
-    <p class="myShow">Life is only <span>900</span> months.</p>
-    <p class="myP">You have lived <span>{{day}}</span> days.</p>
-
-        <ul class="table">
-            <li data-ng-repeat="m in monthSts track by $index" data-ng-class="{dayAgo:m==0,dayNow:m==1}"></li>
-        </ul>
-        <p class="myHave"><span>{{900-haveMonth}}</span> months left.Enjoy. </p>
-        <button data-ng-click="returnWelcome()" class="removeBtn">Reset</button>
+    <p class="myShow">Life is only
+        <span>900</span>months.</p>
+    <p class="myP">You have lived
+        <span>{{day}}</span>days.</p>
+    <ul class="table">
+        <li data-ng-repeat="m in monthSts track by $index" data-ng-class="{dayAgo:m==0,dayNow:m==1}"></li>
+    </ul>
+    <p class="myHave">
+        <span>{{900-haveMonth}}</span>months left.Enjoy.</p>
+    <button data-ng-click="returnWelcome()" class="removeBtn">Reset</button>
 </div>
