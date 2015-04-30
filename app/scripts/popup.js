@@ -1,5 +1,5 @@
 'use strict';
-angular.module('myApp', ['datePicker'])
+angular.module('myApp', ['datePicker','ngAnimate'])
     .directive('welcome', function() {
         return {
             restrict: 'CA',
