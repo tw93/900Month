@@ -89,3 +89,4 @@ angular.module('myApp', ['datePicker','ngAnimate'])
             }
         });
     }])
+
