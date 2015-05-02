@@ -174,14 +174,3 @@ ul.table li.dayNow {
     text-decoration: none;
     line-height: 20px;
 }
-.animateSwitch.ng-enter {
-  opacity: 0;
-  -webkit-transition:all linear 1s;
-  -moz-transition:all linear 1s;
-  -o-transition:all linear 1s;
-  transition: opacity 1s;
-}
-
-.animateSwitch.ng-enter.ng-enter-active {
-  opacity: 1.0;
-}
