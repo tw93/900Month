@@ -22,7 +22,7 @@
     "default_title": "900Month",
     "default_popup": "popup.html"
   },
-  "options_page": "options.html",
+ // "options_page": "options.html",
   "omnibox": {
     "keyword": "900Month"
   },
