@@ -4,19 +4,19 @@ angular.module('myApp', ['datePicker','ngAnimate'])
         return {
             restrict: 'CA',
             templateUrl: 'views/welcome.html'
-        }
+        };
     }).directive('drawset', function() {
         return {
             restrict: 'CA',
             scope: true,
             templateUrl: 'views/drawset.html'
-        }
+        };
     }).directive('drawshow', function() {
         return {
             restrict: 'CA',
             scope: true,
             templateUrl: 'views/drawshow.html'
-        }
+        };
     }).controller('myController', ['$scope', function($scope) {
         $scope.now = new Date();
         chrome.storage.local.get('900MonthBirthday', function(result) {
@@ -50,8 +50,8 @@ angular.module('myApp', ['datePicker','ngAnimate'])
                 $scope.isDrawbody = false;
                 chrome.storage.local.remove('900MonthBirthday', function() {
                     console.log("remove!");
-                })
-            }
+                });
+            };
             $scope.toDrawSet = function() {
                 $scope.st = 1;
                 $scope.must = false;
@@ -85,8 +85,8 @@ angular.module('myApp', ['datePicker','ngAnimate'])
                     } else {
                         return 2;
                     }
-                })
-            }
+                });
+            };
         });
-    }])
+    }]);
 
