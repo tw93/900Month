@@ -1,3 +1,5 @@
+/* global angular */
+/* global chrome */
 'use strict';
 angular.module('myApp', ['datePicker','ngAnimate'])
     .directive('welcome', function() {
