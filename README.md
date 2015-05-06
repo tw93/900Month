@@ -3,6 +3,11 @@
 Life is only 900 months.  
 Draw a 30×30 table on paper.Check a box every month.  That's your whole life. 
 
+###Cheetah Browser Extension
+
+ - First，you need a Cheetah Browser.
+ - Then,visit the URL:http://store.liebao.cn/search.html?keyword=900#!nphnknmpeekmhffgnemdkfpolfgpidaa
+
 ##Start
 
  - git clone  https://github.com/tw93/900Month.git
