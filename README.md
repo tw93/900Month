@@ -6,7 +6,7 @@ Draw a 30×30 table on paper.Check a box every month.  That's your whole life.
 ###Cheetah Browser Extension
 
  - First，you need a Cheetah Browser.
- - Then,visit the URL:http://store.liebao.cn/search.html?keyword=900#!nphnknmpeekmhffgnemdkfpolfgpidaa
+ - Then,visit the [URL](http://store.liebao.cn/search.html?keyword=900#!nphnknmpeekmhffgnemdkfpolfgpidaa)
 
 ##Start
 
