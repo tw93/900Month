@@ -3,11 +3,12 @@
 Life is only 900 months.  
 Draw a 30×30 table on paper.Check a box every month.  That's your whole life. 
 
-###Cheetah Browser Extension
+###Cheetah Browser Extension Install
 
- - First，you need a Cheetah Browser.
- - Then,visit the [INSTALL URL](http://store.liebao.cn/search.html?keyword=900#!nphnknmpeekmhffgnemdkfpolfgpidaa) .
- - Finally ,Install this Extension.
+ - 900Month for Cheetah Browser,[Installation address](http://store.liebao.cn/search.html?keyword=900Month){:target="_blank"}  
+ - 900Month for 360 secure browser,[Installation address](https://ext.se.360.cn/webstore/search/900Month){:target="_blank"}
+ - 900Month for 360 speed browser,[Installation address](https://ext.chrome.360.cn/webstore/search/900Month){:target="_blank"}
+
 
 ##Start
 
