@@ -6,7 +6,6 @@ Draw a 30×30 table on paper.Check a box every month.  That's your whole life.
 ###Cheetah Browser Extension Install
 
  - 900Month for Cheetah Browser,[Installation address](http://store.liebao.cn/search.html?keyword=900Month) 
- - 900Month for 360 secure browser,[Installation address](https://ext.se.360.cn/webstore/search/900Month)
  - 900Month for 360 speed browser,[Installation address](https://ext.chrome.360.cn/webstore/search/900Month)
 
 
