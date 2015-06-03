@@ -1,7 +1,7 @@
 /* global angular */
 /* global chrome */
 'use strict';
-angular.module('myApp', ['datePicker', 'ngAnimate'])
+angular.module('myApp', ['datePicker'])
     .directive('welcome', function () {
     return {
         restrict: 'CA',
