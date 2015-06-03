@@ -97,6 +97,7 @@ button.draw {
     position: absolute;
     bottom: 25px;
     left: 0px;
+    text-align:center;
 }
 
 .nodraw {
