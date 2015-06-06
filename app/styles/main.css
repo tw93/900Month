@@ -139,11 +139,10 @@ ul.table li {
     border-left: 1px #DDD solid;
     border-top: 1px #DDD solid;
     float: left;
-    font-size: 12px;
 }
 
 ul.table li.dayAgo {
-    background: #AAA;
+    background: #999;
 }
 
 ul.table li.dayNow {
@@ -155,7 +154,7 @@ ul.table li.dayNow {
 .tw93Btn {
     border: 1px solid #ddd;
     background: #fff;
-    color: #AAA;
+    color: #999;
     float: right;
     margin: -16px 5px 0 0;
     cursor: pointer;
